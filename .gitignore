@@ -106,10 +106,12 @@ coverage
 ############################
 
 .env
+.env_DEV
+.env_PROD
 license.txt
 exports
 *.cache
-*.vscode
+.vscode/
 dist
 build
 .strapi-updater.json
