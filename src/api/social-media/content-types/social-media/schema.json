@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_medias",
+  "info": {
+    "singularName": "social-media",
+    "pluralName": "social-medias",
+    "displayName": "Social Media",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "socialMedia": {
+      "type": "dynamiczone",
+      "components": [
+        "global.contacts"
+      ]
+    }
+  }
+}

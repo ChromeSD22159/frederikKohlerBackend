@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_feature_feature1s",
+  "info": {
+    "displayName": "Feature",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

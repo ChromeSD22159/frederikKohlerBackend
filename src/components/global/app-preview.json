@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_global_app_previews",
+  "info": {
+    "displayName": "AppPreview",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.label-link"
+    },
+    "subline": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "enumeration",
+      "enum": [
+        "iOS",
+        "WatchOS",
+        "iPadOs",
+        "MacOs",
+        "Android"
+      ]
+    }
+  }
+}

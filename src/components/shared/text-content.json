@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_text_contents",
+  "info": {
+    "displayName": "TextContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titel": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "component": {
+      "type": "enumeration",
+      "enum": [
+        "Hero",
+        "TextContent"
+      ],
+      "required": true,
+      "default": "TextContent"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_global_section_child_primaries",
+  "info": {
+    "displayName": "SectionHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titel": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "component": {
+      "type": "enumeration",
+      "enum": [
+        "Hero",
+        "TextContent"
+      ],
+      "required": true
+    },
+    "subline": {
+      "type": "string"
+    }
+  }
+}

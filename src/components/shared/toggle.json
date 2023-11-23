@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_toggles",
+  "info": {
+    "displayName": "toggle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

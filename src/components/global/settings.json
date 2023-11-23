@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_settings",
+  "info": {
+    "displayName": "Settings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.toggle"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

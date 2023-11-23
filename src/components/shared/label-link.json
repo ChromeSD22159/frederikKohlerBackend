@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_shared_label_links",
+  "info": {
+    "displayName": "LabelLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "_self",
+        "_parent",
+        "_top"
+      ]
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "apple",
+        "xing",
+        "github",
+        "phone",
+        "mail",
+        "instagram"
+      ],
+      "required": true,
+      "default": "none"
+    },
+    "component": {
+      "type": "enumeration",
+      "enum": [
+        "ButtonIconCard",
+        "ButtonLabelWithAnimatedIcon",
+        "BottonFootLink",
+        "BottonFootSocialIconLink"
+      ],
+      "required": true
+    }
+  }
+}
