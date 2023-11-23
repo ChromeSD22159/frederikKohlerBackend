@@ -109,6 +109,7 @@ coverage
 license.txt
 exports
 *.cache
+*.vscode
 dist
 build
 .strapi-updater.json
